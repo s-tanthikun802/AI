@@ -63,4 +63,3 @@ print("OpenAI: " + firstMove)
 secondMove = "My move is this: " + firstMove + " Now your move next and return in json."
 secondMove = _claude3Move(secondMove) 
 print("Claude3AI: " + str(secondMove[0]))
-
